@@ -75,9 +75,9 @@ CHECK- Implement the necessary todoItem methods:
 
 Implement the complete button
 
-- (TDD) Write a test to make sure that the todoApp completedButton method returns a button
+SKIP- (TDD) Write a test to make sure that the todoApp completedButton method returns a button
 - Make a todoItem completedButton method that will return a button DOM object:
-  - create the button
+  CHECK- create the button
   - set the onclick function to do some DOM manipulation:
     - (remember to save a reference to the todoItem 'this' in the function's scope by storing it in a variable)
     - remove the task from 'todo-items' and append it to 'completed-items'
